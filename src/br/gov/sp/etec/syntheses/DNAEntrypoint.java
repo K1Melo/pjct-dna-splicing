@@ -1,10 +1,8 @@
 package br.gov.sp.etec.syntheses;
 
 import java.util.ArrayList;
-import java.util.List;
-import java.util.Scanner;
 
-public class DNAEntrypoint extends SplicingServices{
+public class DNAEntrypoint extends DNAServices {
 
 
     public DNAEntrypoint() {
@@ -16,5 +14,4 @@ public class DNAEntrypoint extends SplicingServices{
         System.out.println("\n\n RNAm conversion \n\n");
         rnamConversion();
     }
-
 }
